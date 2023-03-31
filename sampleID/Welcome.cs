@@ -33,10 +33,10 @@ namespace sampleID
             string ID = Intent.GetStringExtra("ID");
 
             TextView hello = FindViewById<TextView>(Resource.Id.txtName);
-            hello.Text =  name;
+            hello.Text = "Name: " + name;
 
             TextView id = FindViewById<TextView>(Resource.Id.txtIdNumber);
-            id.Text = ID;
+            id.Text = "ID Number: " + ID;
         }
 
         private void BtnBack_Click(object sender, EventArgs e)

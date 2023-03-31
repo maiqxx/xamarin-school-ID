@@ -127,15 +127,15 @@
 
     <ImageView
         android:src="@drawable/sign"
-        android:layout_width="150.0dp"
-        android:layout_height="150.0dp"
+        android:layout_width="120.0dp"
+        android:layout_height="50.0dp"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:scaleType="fitXY"
         android:layout_marginBottom="0.0dp"
         android:layout_marginRight="0.0dp"
         android:layout_marginLeft="0.0dp"
-        android:layout_marginTop="300.0dp"
+        android:layout_marginTop="340.0dp"
         android:id="@+id/txtSignature" 
         />
 
