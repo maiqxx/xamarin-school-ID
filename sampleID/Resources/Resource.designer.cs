@@ -3374,7 +3374,7 @@ namespace sampleID
 			public const int pic = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int signature = 2131165314;
+			public const int sign = 2131165314;
 			
 			// aapt resource value: 0x7F070083
 			public const int tooltip_frame_dark = 2131165315;

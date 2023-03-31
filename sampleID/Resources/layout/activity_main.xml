@@ -126,7 +126,7 @@
         />
 
     <ImageView
-        android:src="@drawable/signature"
+        android:src="@drawable/sign"
         android:layout_width="150.0dp"
         android:layout_height="150.0dp"
         android:layout_centerHorizontal="true"
