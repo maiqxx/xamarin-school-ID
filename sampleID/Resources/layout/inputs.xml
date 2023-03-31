@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/ctulogo"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="180.0dp"
+        android:layout_height="180.0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imgVctuwc" />
+
+    <TextView
+        android:text="WELCOME"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:typeface="serif" 
+        android:textAlignment="center"
+        android:id="@+id/TXTwELCOME"/>
+
+    <TextView
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtName" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="350dp"
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:layout_height="wrap_content" 
+        android:hint="Enter your name"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="ID Number:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtIDNum" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:layout_height="wrap_content" 
+        android:hint="Enter your ID number"
+        android:layout_gravity="center"
+        android:id="@+id/editTextIDNum"/>
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff009688"
+        android:textColor="#ffffff"
+        android:id="@+id/btnSubmit"/>
+
+
+</LinearLayout>

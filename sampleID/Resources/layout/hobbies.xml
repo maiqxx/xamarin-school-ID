@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+        android:text="HOBBIES"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="Hobby1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchingMovies"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:text="Describe why Hobby1 is your hobby."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieHobby"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@android:color/background_dark" 
+        />
+
+    <TextView
+        android:text="Hobby2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reading"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:text="Describe why Hobby2 is your hobby."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readingHobby"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@android:color/background_dark" 
+        />
+
+    <TextView
+        android:text="Hobby3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/music"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="Describe why Hobby3 is your hobby."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/musicHobby"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@android:color/background_dark" 
+        />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHobbies2Back" 
+        android:backgroundTint="#ff009688"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        />
+
+
+</LinearLayout>
